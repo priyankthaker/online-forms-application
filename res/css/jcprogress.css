@@ -1,0 +1,17 @@
+.jCProgress {
+     position: absolute;
+     z-index: 9999999;
+     /*  margin-top:-15px; /* offset from the center */
+}
+
+.jCProgress > div.percent {
+     font: 18px/27px 'BebasRegular', Arial, sans-serif;
+     color:#ebebeb;
+     text-shadow: 1px 1px 1px #1f1f1f;
+
+     position:absolute;
+     margin-top:40px;
+     margin-left:22px;
+     text-align: center;
+     width:60px;
+}

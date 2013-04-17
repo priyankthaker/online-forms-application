@@ -1,0 +1,13 @@
+/* 
+    Document   : dialog
+    Created on : 26-Feb-2013, 10:44:45 AM
+    Author     : YZhao2
+    Description:
+        For use with jQuery dialog
+*/
+
+  /* For hiding dialog close button*/
+  .ui-dialog-titlebar-close {
+        visibility: hidden;
+    }
+

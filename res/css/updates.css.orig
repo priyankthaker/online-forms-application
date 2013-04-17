@@ -1,0 +1,401 @@
+/* "Winter Blues" CSS theme for CSS Table Gallery (http://icant.co.uk/csstablegallery/) by Gunta Klavina (http://www.klavina.com) */
+
+#table_cont{
+width:100%;
+margin-top:3em;
+
+}
+
+table  { width: 95%;margin:auto;font:  "BellSlim Regular", "arial", "Trebuchet MS", sans-serif;padding: 0; border-collapse: collapse; color: #333; background: #F3F5F7;}
+
+/*table a {color: #3A4856; text-decoration: none; border-bottom: 1px solid #C6C8CB;}  */
+
+
+
+table caption {text-align: left; text-transform: uppercase;  padding-bottom: 10px; font: 200% "BellSlim Medium", "arial", "Trebuchet MS", sans-serif;}
+
+table thead th {background: #0066a4; 
+                padding: 5px 3px; 
+                color: #fff; 
+                font: 1em "BellSlim SemiBold", "arial", "Trebuchet MS", sans-serif; 
+                text-align: center; 
+                font-weight:bolder; 
+                border:2px solid #0066a4;
+}
+
+table tbody, table thead {border-left: 1px solid #EAECEE; border-right: 1px solid #EAECEE;}
+
+table tbody {border-bottom: 1px solid #EAECEE;}
+
+table tbody td, table tbody th {padding: 10px; text-align: left;}
+
+table tbody tr {background: white;}
+
+table tbody tr.odd {background: #F5F5F5;}
+
+/*table tbody  tr:hover {background: #EAECEE; color: #111;}*/
+
+table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "BellSlim Medium", "arial", "Trebuchet MS", sans-serif; text-transform: uppercase; background: #fff; padding: 10px;}
+table td{
+   /* border-right:1px solid #0066a4;*/
+   border-right:1px solid #EAEAEA;
+    width:10%;
+}
+table tbody tr td:first-child{
+   /* border-left:1px solid #0066a4;*/
+   border-left:1px solid #EAEAEA;
+}
+
+table tbody tr:last-child {
+    /*border-bottom:1px solid #0066a4;*/
+ border-bottom:1px solid #EAEAEA;
+}
+
+table{
+    margin-bottom:30px;
+    margin-top:50px
+
+}
+#header{
+    background-color:#0066a4;
+    height:80px;
+    font-weight:bolder;
+    padding: 15px 10px;
+    color: #fff;
+    font: 2em "BellSlim SemiBold", "arial", "Trebuchet MS", sans-serif;
+    font-size:2.5em;
+    margin-bottom:20px;
+}
+body{
+    padding:0px;
+    margin:0px;
+}
+
+table tr td{
+    text-align:center;
+    /* font-size:1.5em;*/
+    font: 1.3em  "BellSlim Heavy","arial";
+    padding-top:1px;
+    padding-bottom:1px;
+
+}
+.timer{
+   /* border:1px solid blue;*/
+background: #0095CD;
+background: -webkit-gradient(linear, left top, left bottom, from(#00ADEE), to(#0078A5));
+background: -moz-linear-gradient(top, #00ADEE, #0078A5);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.name{
+    color: #0066a4;
+    text-align:left;
+
+}
+#updates tr td:first-child{
+    text-align:left;
+}
+.time_display{
+    /*border: 5px solid #c4c8cc;*/
+    font: 0.8em/100% Arial, Helvetica, sans-serif;
+    padding: .3em 1em .3em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: 15px; 
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: #fef4e9;
+    /*border: solid 1px #da7c0c;*/
+
+
+}
+.neutral div {
+    color:white;
+
+    background: #64991E;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7DB72F), to(#4E7D0E));
+    background: -moz-linear-gradient(top, #7DB72F, #4E7D0E);
+}
+.notice div{
+    color:white;
+    background: #F78D1D;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FAA51A), to(#F47A20));
+    background: -moz-linear-gradient(top, #FAA51A, #F47A20);
+}
+.warn div{
+    color:white;
+    background: #D81B21;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ED1C24), to(#AA1317));
+    background: -moz-linear-gradient(top, #ED1C24, #AA1317);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+}
+
+.void {
+    color: #E9E9E9;
+    border: solid 1px #555;
+    background: #6E6E6E;
+    background: -webkit-gradient(linear, left top, left bottom, from(#575757), to(#888));
+    background: -moz-linear-gradient(top, #888, #575757);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+
+
+
+}
+
+#logo{ 
+    width:120px;
+    height:69px;
+    float:right;
+    background-image:url(http://192.168.1.198/cms/application/res/images/Bell_Logow.png);
+    background-repeat: no-repeat;
+}
+.date_display{
+    font-family: "BellSlim SemiBold",arial;
+    margin-left:30px;
+    font-size: 2em;
+    color:#0066a4;
+	
+}
+
+#table_cont{
+    clear: both;
+	width:100%;
+}
+
+#suggest{
+    position:absolute;
+    background-color:white;
+    border-color: #C9C7C8;
+
+    
+    
+}
+
+.line{
+border-top:1px solid #EAEAEA;
+}
+
+input[type="submit"]{
+margin:auto;
+   color: #fff;
+   font-weight: bold;
+   font-size: 1em;
+   border-style: none;
+   background-color: #0066a4;
+  
+   border-radius: 25px;
+   height: 40px;
+   width: 200px;
+   margin-top: 20px;
+background: #007ac1; /* Old browsers */
+background: -moz-linear-gradient(top, #007ac1 0%, #0066a4 49%, #00589b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#007ac1), color-stop(49%,#0066a4), color-stop(100%,#00589b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* IE10+ */
+background: linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ac1', endColorstr='#00589b',GradientType=0 ); /* IE6-9 */
+display:block;
+}
+
+#s_wrapper{
+
+position:relative;
+margin:auto;
+display:inline-block;
+padding-bottom:15px;
+
+}
+.admin_table {
+    text-align: left;
+    font-size: 0.7em;
+  /*  font-family: Arial;  */ 
+    /*width: 75%;*/
+
+	width:75%;
+	margin:auto;
+	
+}
+
+.admin_table tr td{
+    text-align: left; 
+    padding-bottom: 7px;
+	
+}
+.admin_table thead th {
+    font-size: 1.5em;
+    /*font-family: Arial; */
+    
+}
+
+
+
+.admin_table a:link{
+   width: 33%;
+   padding-right: 10px;
+   text-decoration: none;
+}
+
+.admin_table a:hover {
+   width: 33%;
+   padding-right: 10px;
+   text-decoration: none;
+}
+
+.admin_table a:visited {
+   width: 33%;
+   padding-right: 10px;
+   text-decoration: none;
+}
+
+#search_label{
+    color:#0066a4;
+    font-family:		Helvetica, Arial, "Franklin Gothic Medium", sans-serif;
+    
+}
+
+#login_layout{
+    color: #0066a4;
+    font-family:		Helvetica, Arial, "Franklin Gothic Medium", sans-serif;
+    font-size: 1.4em;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 40px;
+    align: center;
+    
+}
+
+#button{
+    margin-left: 100px;
+    color: fff;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #0066a4;
+    border: 1px solid;
+    border-radius: 25px;
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+
+#nav ul{
+
+
+
+}
+#nav ul li{
+    text-decoration:none;
+    display:inline;
+    list-style-type: none;
+    margin-right:30px;
+    padding-right:10px;
+    color: white;
+    float: left;
+    font-size: 0.5em;
+}
+
+#nav ul li a{
+    
+    text-decoration:none;
+    color: white;
+
+}
+
+#nav ul li a:visited{
+    text-decoration:none;
+   color: white;
+
+}
+
+#nav ul li a:link{
+    text-decoration:none;
+    color: white;
+
+}
+
+#nav ul li a:hover{
+    text-decoration:none;
+   color: black;
+}
+
+
+.box_items {
+    display:block;
+    border:1px solid blue;
+    border-top:0;
+    margin-top:0;
+    padding-top:0;
+    padding:0;
+    margin:0;
+    width: 198px;
+}
+input[type="text"]{
+    width:200px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.box_empty {
+
+    display:none;
+}
+ul{
+    margin-top:0;
+    padding:5px;
+    text-indent: 0;
+    list-style-type:none;
+}
+ul li{
+
+    /*   border-bottom: 1px solid gray;*/
+}
+ul img{
+    float:right;
+}
+
+h1{
+    color:#0066a4;
+    font-family:		Helvetica, Arial, "Franklin Gothic Medium", sans-serif;
+}
+#login_layout{
+   color: #0066a4;
+   font-family:                "BellSlim Heavy", Arial, "Franklin Gothic Medium", sans-serif;
+   font-size: 1.4em;
+   padding-right: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+   padding-top: 40px;
+   align: center;
+   
+}
+#login_layout input{
+	float:left;
+	margin-bottom:30px;
+	width:200px;
+	height:30px;
+	text-align:center;
+	 color: #0066a4;
+	 font-family:                "BellSlim Heavy", Arial, "Franklin Gothic Medium", sans-serif;
+}
+#button{
+clear:both;
+	float:left;
+   color: #fff;
+   font-weight: bold;
+   font-size: 1em;
+   background-color: #0066a4;
+   border: 1px solid;
+   border-radius: 25px;
+   height: 40px;
+   width: 200px;
+   margin-top: 20px;
+background: #007ac1; /* Old browsers */
+background: -moz-linear-gradient(top, #007ac1 0%, #0066a4 49%, #00589b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#007ac1), color-stop(49%,#0066a4), color-stop(100%,#00589b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* IE10+ */
+background: linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ac1', endColorstr='#00589b',GradientType=0 ); /* IE6-9 */
+}

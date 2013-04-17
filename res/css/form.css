@@ -1,0 +1,1026 @@
+/* "Winter Blues" CSS theme for CSS Table Gallery (http://icant.co.uk/csstablegallery/) by Gunta Klavina (http://www.klavina.com) */
+
+/* Updated By: Priyank Thaker ; Date: 27th Feb 2013 	*/
+
+@font-face { font-family: 'BellSlimRegular'; src: url('../fonts/BellSlim_Regular.ttf') format('truetype'); }
+@font-face { font-family: 'BellSlimBold'; src: url('../fonts/BellSlim_Bold.ttf') format('truetype'); }
+@font-face { font-family: 'BellSlimMedium'; src: url('../fonts/BellSlim_Medium.ttf') format('truetype'); }
+@font-face { font-family: 'BellSlimSemiBold'; src: url('../fonts/BellSlim_SemiBold.ttf') format('truetype'); }
+@font-face { font-family: 'BellSlimHeavy'; src: url('../fonts/BellSlim_Heavy.ttf') format('truetype'); }
+
+#table_cont{
+width:100%;
+margin-top:3em;
+
+}
+
+table  { width: 95%;margin:auto; font-family:  BellSlimRegular, sans-serif;padding: 0; border-collapse: collapse; color: #333; background: #F3F5F7;}
+
+/*table a {color: #3A4856; text-decoration: none; border-bottom: 1px solid #C6C8CB;}  */
+
+
+
+table caption {text-align: left; text-transform: uppercase;  padding-bottom: 10px; font-size: 200%; font-family: BellSlim Medium, "arial", "Trebuchet MS", sans-serif;}
+
+table thead th {background: #0066a4; 
+                padding: 5px 3px; 
+                color: #fff; 
+                font-size: 1em;
+                font-family: BellSlimSemiBold, sans-serif; 
+                text-align: center; 
+                font-weight:bolder; 
+                border:2px solid #0066a4;
+                
+}
+
+table tbody, table thead {border-left: 1px solid #EAECEE; border-right: 1px solid #EAECEE;}
+
+table tbody {border-bottom: 1px solid #EAECEE;}
+
+table tbody td, table tbody th {padding: 10px; text-align: left;}
+
+table tbody tr {background: white;}
+
+table tbody tr.odd {background: #F5F5F5;}
+
+/*table tbody  tr:hover {background: #EAECEE; color: #111;}*/
+
+table tfoot td, table tfoot th, table tfoot tr {text-align: left; font-size: 120%; font-family: BellSlimMedium, sans-serif; text-transform: uppercase; background: #fff; padding: 10px;}
+table td{
+   /* border-right:1px solid #0066a4;*/
+   border-right:1px solid #EAEAEA;
+    width:10%;
+}
+table tbody tr td:first-child{
+   /* border-left:1px solid #0066a4;*/
+   border-left:1px solid #EAEAEA;
+}
+
+table tbody tr:last-child {
+    /*border-bottom:1px solid #0066a4;*/
+ border-bottom:1px solid #EAEAEA;
+}
+
+table{
+    margin-bottom:30px;
+    margin-top:50px
+
+}
+#header{
+    background-color:#0066a4;
+    height:80px;
+    font-weight:bolder;
+    padding: 15px 10px;
+    color: #fff;
+    font-family: BellSlimSemiBold, sans-serif;
+    font-size:2.5em;
+    margin-bottom:20px;
+}
+
+#form_login_header{
+    background-color:#0066a4;
+    height:80px;
+    font-weight:bolder;
+    padding: 15px 10px;
+    color: #fff;
+    font-family: BellSlimSemiBold, sans-serif;
+    font-size:3em;
+/*    margin-bottom:20px;*/
+}
+#form_login_header span{
+    position: relative;
+    top: 25px;
+}
+
+
+body{
+    padding:0px;
+    margin:0px;
+}
+
+table tr td{
+    text-align:center;
+    font-size:1.3em;
+    font-family: BellSlim Heavy, sans-serif;
+    padding-top:1px;
+    padding-bottom:1px;
+
+}
+/*.timer{
+   /* border:1px solid blue;
+background: #0095CD;
+background: -webkit-gradient(linear, left top, left bottom, from(#00ADEE), to(#0078A5));
+background: -moz-linear-gradient(top, #00ADEE, #0078A5);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}*/
+
+.timer_container{
+    text-align: center;
+}
+.timer_div{
+    width: 50px;
+    position: fixed;
+    right: 170px;
+    top: -15px;
+
+}
+
+.name{
+    color: #0066a4;
+    text-align:left;
+
+}
+
+#chat-wrapper{
+    width: 400px;
+    position: fixed;
+    right: 170px;
+    bottom: 15px;
+/*    text-align: center;*/
+
+}
+
+/*#chat-wrapper form{
+    width: 100%;
+}*/
+
+
+#chat{
+    width: 200px;
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+}
+
+#chatbox {  
+    text-align:left;  
+    margin: 0 auto;  
+    margin-bottom:25px;  
+    padding: 10px;  
+    background:#fff;  
+    height:150px;  
+    width:100%;  
+    border:1px solid #0066a4;  
+    overflow:auto; 
+}  
+   
+#usermsg {  
+    width:100%;  
+    height: 25px;
+    border:1px solid #0066a4;
+}  
+
+.chat_submit{
+    width: 15%;
+    display: inline-block;
+    float: right;
+}
+
+.chat_input{
+    width: 80%;
+    display: inline-block;
+}
+
+
+
+#submit { width: 60px; }  
+   
+/*.error { color: #ff0000; }  */
+   
+/*#menu { padding:12.5px 25px 12.5px 25px; }  */
+   
+.welcome { float:left; }  
+   
+.logout { float:right } 
+   
+.msgln { margin:0 0 2px 0; }  
+
+
+
+#updates tr td:first-child{
+    text-align:left;
+}
+.time_display{
+    /*border: 5px solid #c4c8cc;*/
+    font: 0.8em/100% Arial, Helvetica, sans-serif;
+    padding: .3em 1em .3em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: 15px; 
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: #fef4e9;
+    /*border: solid 1px #da7c0c;*/
+
+
+}
+.neutral div {
+    color:white;
+
+    background: #64991E;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7DB72F), to(#4E7D0E));
+    background: -moz-linear-gradient(top, #7DB72F, #4E7D0E);
+}
+.notice div{
+    color:white;
+    background: #F78D1D;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FAA51A), to(#F47A20));
+    background: -moz-linear-gradient(top, #FAA51A, #F47A20);
+}
+.warn div{
+    color:white;
+    background: #D81B21;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ED1C24), to(#AA1317));
+    background: -moz-linear-gradient(top, #ED1C24, #AA1317);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+}
+
+.void {
+    color: #E9E9E9;
+    border: solid 1px #555;
+    background: #6E6E6E;
+    background: -webkit-gradient(linear, left top, left bottom, from(#575757), to(#888));
+    background: -moz-linear-gradient(top, #888, #575757);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+
+
+
+}
+
+#logo{ 
+    width:120px;
+    height:69px;
+    float:right;
+    background-image:url(http://192.168.0.65/CMS/application/res/images/Bell_Logow.png);
+    background-repeat: no-repeat;
+}
+.date_display{
+    font-family: BellSlimSemiBold, sans-serif;
+    margin-left:30px;
+    font-size: 2em;
+    color:#0066a4;
+	
+}
+
+#table_cont{
+    clear: both;
+	width:100%;
+}
+
+#suggest{
+    position:absolute;
+    background-color:white;
+    border-color: #C9C7C8;
+    z-index: 9999;
+
+    
+    
+}
+
+.line{
+border-top:1px solid #EAEAEA;
+}
+
+/*input[type="submit"]{
+margin:auto;
+   color: #fff;
+   font-weight: bold;
+   font-size: 1em;
+   border-style: none;
+   background-color: #0066a4;
+  
+   border-radius: 25px;
+   height: 40px;
+   width: 200px;
+   margin-top: 20px;
+background: #007ac1;  Old browsers 
+background: -moz-linear-gradient(top, #007ac1 0%, #0066a4 49%, #00589b 100%);  FF3.6+ 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#007ac1), color-stop(49%,#0066a4), color-stop(100%,#00589b));  Chrome,Safari4+ 
+background: -webkit-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%);  Chrome10+,Safari5.1+ 
+background: -o-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%);  Opera 11.10+ 
+background: -ms-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%);  IE10+ 
+background: linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%);  W3C 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ac1', endColorstr='#00589b',GradientType=0 );  IE6-9 
+display:block;
+}*/
+
+#s_wrapper{
+
+position:relative;
+margin:auto;
+display:inline-block;
+padding-bottom:15px;
+
+}
+.admin_table {
+    text-align: left;
+    font-size: 0.7em;
+  /*  font-family: Arial;  */ 
+    /*width: 75%;*/
+
+	width:75%;
+	margin:auto;
+	
+}
+
+.admin_table tr td{
+    text-align: left; 
+    padding-bottom: 7px;
+	
+}
+.admin_table thead th {
+    font-size: 1.5em;
+    /*font-family: Arial; */
+    
+}
+
+
+
+.admin_table a:link{
+   width: 33%;
+   padding-right: 10px;
+   text-decoration: none;
+}
+
+.admin_table a:hover {
+   width: 33%;
+   padding-right: 10px;
+   text-decoration: none;
+}
+
+.admin_table a:visited {
+   width: 33%;
+   padding-right: 10px;
+   text-decoration: none;
+}
+
+#search_label{
+    color:#0066a4;
+    font-family: BellSlimRegular, Arial, sans-serif;
+    
+}
+
+#login_layout{
+    color: #0066a4;
+    font-family: BellSlimRegular,  sans-serif;
+    font-size: 1.4em;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 40px;
+    align: center;
+    
+}
+.save-status{
+    text-align: center;
+}
+#button{
+    color: fff;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #0066a4;
+    border: 1px solid;
+    border-radius: 25px;
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+
+#nav ul{
+
+
+
+}
+#nav ul li{
+    text-decoration:none;
+    display:inline;
+    list-style-type: none;
+    margin-right:30px;
+    padding-right:10px;
+    color: white;
+    float: left;
+    font-size: 0.5em;
+}
+
+#nav ul li a{
+    
+    text-decoration:none;
+    color: white;
+
+}
+
+#nav ul li a:visited{
+    text-decoration:none;
+   color: white;
+
+}
+
+#nav ul li a:link{
+    text-decoration:none;
+    color: white;
+
+}
+
+#nav ul li a:hover{
+    text-decoration:none;
+   color: black;
+}
+
+
+.box_items {
+    display:block;
+    border:1px solid blue;
+    border-top:0;
+    margin-top:0;
+    padding-top:0;
+    padding:0;
+    margin:0;
+    width: 198px;
+}
+input[type="text"]{
+    width:200px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.box_empty {
+
+    display:none;
+}
+ul{
+    margin-top:0;
+    padding:5px;
+    text-indent: 0;
+    list-style-type:none;
+}
+ul li{
+
+    /*   border-bottom: 1px solid gray;*/
+}
+/*ul img{
+    float:right;
+}*/
+
+h1{
+    color:#0066a4;
+    font-family: BellSlimRegular, sans-serif;
+}
+#login_layout{
+    color: #0066a4;
+    font-family: BellSlimHeavy, sans-serif;
+    font-size: 1.4em;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 40px;
+    align: center;
+   
+}
+#login_layout input[type="text"],input[type="password"]{
+    margin-bottom:30px;
+    width:200px;
+    height:30px;
+    text-align:center;
+    color: #0066a4;
+    font-family: BellSlimHeavy, sans-serif;
+}
+
+
+#login_layout input[type="submit"]{
+    margin-bottom:30px;
+    width:205px;
+    /*height:30px;*/
+    text-align:center;
+    margin: auto;
+}
+
+#button{
+clear:both;
+    float:left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #0066a4;
+    border: 1px solid;
+    border-radius: 25px;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    background: #007ac1; /* Old browsers */
+    background: -moz-linear-gradient(top, #007ac1 0%, #0066a4 49%, #00589b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#007ac1), color-stop(49%,#0066a4), color-stop(100%,#00589b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* IE10+ */
+    background: linear-gradient(top, #007ac1 0%,#0066a4 49%,#00589b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ac1', endColorstr='#00589b',GradientType=0 ); /* IE6-9 */
+}
+
+.section{
+    color: #0066a4;
+    font-size: 1em;
+    font-family: Arial;
+    
+}
+
+
+.modal-buttons{
+    text-align: center;
+}
+.modal-buttons span{
+    padding: 10px;
+}
+
+.global_error, .time_error, .unique_error{
+    background-color: #F74343;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+.error_message{
+    color: #C00000;    
+    font-size: 1em;
+    font-style: italic;
+}
+
+.error_textbox{
+    border-color: #C00000;
+    background-color: rgba(255,0,0,0.15); 
+}
+
+/*.section_head{
+    background-color:#0066a4;
+    height: 40px;
+    color: #fff;
+    font-family: BellSlimSemiBold, sans-serif;
+    font-size: 2.5em;
+    padding-top: 20px;
+    padding-left: 10px;
+}*/
+
+.section_head{
+    background-color:#0066a4;
+/*    height: 40px;*/
+    color: #fff;
+    line-height: 1.5em;
+    font-family: BellSlimSemiBold, sans-serif;
+    font-size: 2.5em;
+/*    padding-top: 20px;*/
+    padding-left: 10px;
+}
+
+
+.form_t{
+    display: inline-block;
+    width: 100%;
+}
+
+.form_date{
+    font-size: 1.2em;
+    float: right;
+    padding-right: 10px;
+    font-family: BellSlimBold, sans-serif;
+    color: #0066a4;
+    position: relative;
+    top: -25px;
+    display: inline-block;
+    padding-bottom: 0px;
+}
+.form_candidate_name{
+    padding-top: 15px;
+    display: inline-block;
+    color: #0066a4;
+    font-family: BellSlimHeavy, sans-serif;
+    font-size: 2em;
+    float: right;
+    padding-right: 10px;
+}
+
+.ques_num{
+    display: inline-block;
+    padding-top:10px;
+    margin-right: 10px;
+    float: left;
+	width: 10px;
+	font-size: 1.2em;
+    
+}
+.ques_li{
+    margin-left:25px;
+    width:90%;
+	float:left;
+}
+
+.question{   
+   padding-top: 10px;
+   margin-bottom: -10px;
+   font-weight: normal;
+   font-size: 1.2em;
+   width:100%;
+   float: left;
+   color: black;   
+  /* text-align: left;	*/
+   text-align:left;
+   text-justify:inter-word;
+}
+
+
+.ques_row{
+	width: 100%;
+	float: left;
+}
+
+
+.question_image{
+    text-align: left;
+}
+
+.table_3_cols{
+	margin: 5px;
+						padding: 5px;
+						border: 1px solid gray;
+						width: 252px;
+						float: left;
+						height:60px;
+}
+
+.table_2_cols{
+	margin: 5px;
+						padding: 5px;
+						border: 1px solid gray;
+						width: 390px;
+						float: left;
+						height:60px;
+}
+
+.table_4_cols {
+						margin: 5px;
+						padding: 5px;
+						border: 1px solid gray;
+						width: 185px;
+						float: left;
+						height:60px;
+						}
+
+.table_2_cols.readOnlyText{
+			text-align: center;
+			line-height: 4em;
+}	
+
+.table_3_cols.readOnlyText{
+			text-align: center;
+			line-height: 4em;
+}	
+
+.table_4_cols.readOnlyText{
+			text-align: center;
+			line-height: 4em;
+}
+					
+.choice{
+   font-weight: normal;
+   color: #0066a4;
+}
+
+.choice_span{
+    float:left;
+    display:block;
+}
+
+
+.footer{
+    display: none;
+    vertical-align: bottom;
+    color: grey;
+    width:960px;  
+    margin:0 auto;
+    padding: 20px;
+    text-align: center;    
+}
+
+#next{
+    text-align: right;
+    float: right;
+    padding-top: 30px;
+}
+#previous{
+    text-align: left; 
+    float: left;
+    padding-top: 30px;
+}
+
+#submit{
+    text-align: center;
+    /*margin-left:40%;*/
+    width: auto;
+    padding-top: 100px;
+}
+
+.form_navigators{
+    text-align: center;
+    display: none;
+}
+
+.start_navigator{
+    text-align: center;  
+}
+
+.form_body{
+    background-position: right;
+    background-position-y: 0%;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#form_wrapper{
+   width: 960px;  
+   margin: auto;
+   /*display: none;*/
+}  
+
+.pmp_logo{ 
+    text-align: center;
+}
+
+.corner_logo{
+    float: right;
+    display: inline-block;
+   
+}
+
+.form_radio{
+    vertical-align:top; 
+    margin-left: 15px; 
+    margin-right:10px;
+}
+
+.radio_button, .check_box{
+    /*margin-left: 10px;*/
+    margin-top: 10px;
+    vertical-align: top;
+    
+
+
+    /*padding-top: 5px;*/
+
+}
+
+.radio_pair_right{
+   left: 80px;
+   width: 50%;
+   display: inline-block;
+   position: relative;
+
+}
+
+
+.radio_pair_left{
+    position:relative;
+    width: 50%;    
+    left :230px;
+    right: 10px;
+    display: inline-block;
+}
+
+
+.input_text, .date_field, .oneToTen, .oneToTenUnique, oneToOneHundred, .oneToSixUnique, .phone_number, .email_text {
+    padding-left: 5px;
+    padding-top:  5px;
+}
+
+.form_title{
+    color:#0066a4;
+    font-family: BellSlimHeavy, sans-serif;
+    font-size: 2.5em;   
+    text-align: left;
+    padding: 20px;
+    padding-left: 2px;
+    display: inline-block;
+    
+}
+
+
+.form_ol{
+    margin-left:0px;
+}
+
+
+.form_li{
+    display: block;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.start_time{
+    display: inline-block;
+    width: 16%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.start_time select, .end_time select{
+    margin: auto;
+/*    text-align: center;*/
+    margin-bottom: 5px;
+}
+
+.end_time{
+    display: inline-block;
+    width: 16%;
+    text-align: center;
+}
+
+.time_input{
+    padding-left: 8px;
+}
+.form_label{
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.form_inline_label{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+
+
+
+select {
+    height : 28px;
+}
+
+/* The following commented rules can be found in:
+ *      res/sigPad/build/jquery.signaturepad.css */
+/*
+
+.signature{
+    display: block;
+}
+
+.sig {
+  display: block;
+}
+
+.sigNav {
+  display: block;
+  height: 2.25em;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  list-style-type: none;
+}
+
+.sigNav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.sigNav .typeIt a.current,
+.sigNav .typeIt a.current:link,
+.sigNav .typeIt a.current:visited {
+  background-color: #ccc;
+
+  color: #555;
+}
+
+.sigNav .clearButton {
+  
+  display: inline-block;
+  position: relative;
+  height: 30px;
+  widht: 55px;
+  font-size: 1.2em;
+}
+
+.signed .sigWrapper {
+  border: 0;
+}
+
+.sig .sigWrapper {
+  border: 1px;
+}
+
+.sigWrapper.current {
+  border-color: #666;
+}
+
+.sigWrapper {
+  
+  height: 300px;
+  width: 300px;
+  border: 1px solid #ccc;
+}
+
+
+.pad {
+  position: relative;
+  border: 1px;
+}
+
+
+.current .pad {
+  /**
+   * For cross browser compatibility, this should be an absolute URL
+   * In IE the cursor is relative to the HTML document
+   * In all other browsers the cursor is relative to the CSS file
+   *
+   * http://www.useragentman.com/blog/2011/12/21/cross-browser-css-cursor-images-in-depth/
+   */
+   
+   /*
+  cursor: url("http:/192.168.0.65/forms/application/res/images/pen.cur"), crosshair;
+  /**
+   * IE will ignore this line because of the hotspot position
+   * Unfortunately we need this twice, because some browsers ignore the hotspot inside the .cur
+   */
+   
+   /*
+  cursor: url("pen.cur") 16 16, crosshair;
+}
+
+.typed {
+  height: 55px;
+  margin: 0;
+  padding: 0 5px;
+  position: absolute;
+  z-index: 90;
+
+  cursor: default;
+
+  color: #145394;
+  font: normal 1.875em/50px "Journal",Georgia,Times,serif;
+}
+
+.typeItDesc,
+.drawItDesc {
+  display: none;
+  margin: 0.75em 0 0.515em;
+  padding: 0.515em 0 0;
+  border-top: 3px solid #ccc;
+  color: #000;
+  font: italic normal 1em/1.375 Georgia,Times,serif;
+}
+
+.drawIt, .clearButton{
+   font-size: 18px; 
+   padding: 11px 48px 13px; 
+   width: auto;   
+   background-position: 0 -34px;
+   background-color: #e9e9e9; 
+   color: #333; 
+   border: 1px solid #cacaca; 
+   text-shadow: 
+   none !important; 
+}
+
+
+
+p.error {
+  display: block;
+  margin: 0.5em 0;
+  padding: 0.4em;
+
+  background-color: #f33;
+
+  color: #fff;
+  font-weight: bold;
+}
+*/
+.ui-progressbar .ui-progressbar-value { 
+    background-image: url(http://192.168.0.65/Forms/res/images/pbar-ani.gif); 
+}
+.progress_bar{
+    float: left; 
+    padding-left: 10px;
+    padding-top: 1px;
+    font-family: BellSlimBold, sans-serif;
+    vertical-align: middle;
+}
+
+
+@media print {
+    page {
+        margin: 0.5cm;
+    }
+    body {
+        font: 12pt Georgia, "Times New Roman", Times, serif;
+        line-height: 1.3;
+    }
+    .form_navigators{
+        display: none;
+    }
+    textarea{
+        width: 90%;
+    }
+    
+}
